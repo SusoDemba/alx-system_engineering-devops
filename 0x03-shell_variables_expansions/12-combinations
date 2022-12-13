@@ -1,2 +1,2 @@
 #!/bin/bash
-echo aa bb cc dd ee ff gg hh ii jj kk ll mm nn pp qq rr ss tt uu vv ww xx yy zz
+echo {a..z}{a..z} | tr '''\n'| grep -v "oo"
